@@ -36,9 +36,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Describe what it means to be mobile first vs desktop first.
 
+Mobile first has its base code designed for mobile, with media queries to make it responsvie for a desktop environment. Desktop first has its base code designed for desktop, with media queries to make it responsive for a mobile device
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
 4. How would you describe preprocessing to someone new to CSS?
+
+Preprocessing 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
