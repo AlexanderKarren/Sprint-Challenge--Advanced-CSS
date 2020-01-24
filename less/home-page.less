@@ -66,22 +66,9 @@
       .btn {
         display:flex;
         button {
-          background-color:@btn-bg-color;
-          border-radius:5px;
-          height:
-          .centerContent();
-          width:90px;
-          height:30px;
-          color:white;
-          font-size:140%;
-          &:hover {
-            color:@btn-bg-color;
-            background-color:white;
-          }
+          .customButton(@buttonWidth, @buttonHeight, @buttonFontSize);
           @media @iPhone {
-            width:100%;
-            height:60px;
-            font-size:180%;
+            .customButton(@buttonWidthPhone, @buttonHeightPhone, @buttonFontSizePhone);
           }
         }
       }
