@@ -6,17 +6,6 @@
     align-items:center;
 }
 
-// Button Variables for Desktop
-@buttonWidth:90px;
-@buttonHeight:30px;
-@buttonFontSize:140%;
-// Button Variables for Mobile
-@buttonWidthPhone:100%;
-@buttonHeightPhone:60px;
-@buttonFontSizePhone:180%;
-
-.customButton(@buttonWidth, @buttonHeight, @buttonFontSize);
-
 .customButton(@width, @height, @fontSize) {
     background-color:@btn-bg-color;
           border-radius:5px;
@@ -31,9 +20,3 @@
             background-color:white;
           }
 }
-
-@media @iPhone {
-    width:100%;
-    height:60px;
-    font-size:180%;
-  }

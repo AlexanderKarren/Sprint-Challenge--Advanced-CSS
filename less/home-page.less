@@ -43,6 +43,25 @@
     p {
       margin-top: 13px;
     }
+    .image-text-container {
+      display:flex;
+      justify-content:space-between;
+      margin-top: 13px;
+      p {
+        width:55%;
+        @media @iPhone {
+          width:100%;
+        }
+      }
+      div {
+        img {
+          border-radius: 20px;
+        }
+      }
+      @media @iPhone {
+        flex-direction:column;
+      }
+    }
   }
 
   .walk {

@@ -1,8 +1,3 @@
-@media only screen and (max-width:500px) {
-  width: 100%;
-  height: 60px;
-  font-size: 180%;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -257,6 +252,27 @@ footer {
 .home .visit-planets p {
   margin-top: 13px;
 }
+.home .visit-planets .image-text-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+}
+.home .visit-planets .image-text-container p {
+  width: 55%;
+}
+@media only screen and (max-width:500px) {
+  .home .visit-planets .image-text-container p {
+    width: 100%;
+  }
+}
+.home .visit-planets .image-text-container div img {
+  border-radius: 20px;
+}
+@media only screen and (max-width:500px) {
+  .home .visit-planets .image-text-container {
+    flex-direction: column;
+  }
+}
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
@@ -291,9 +307,17 @@ footer {
 }
 @media only screen and (max-width:500px) {
   .home .walk .walk-text .btn button {
+    background-color: #22283A;
+    border-radius: 5px;
+    height: [object Object],[object Object],[object Object];
     width: 100%;
     height: 60px;
+    color: white;
     font-size: 180%;
+  }
+  .home .walk .walk-text .btn button:hover {
+    color: #22283A;
+    background-color: white;
   }
 }
 @media only screen and (max-width:500px) {
