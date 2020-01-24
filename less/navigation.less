@@ -1,1 +1,37 @@
 // Navigation code here
+
+nav {
+    background-color:@wild-sand;
+    border-bottom:@sea-shell solid 1px;
+    color:@ebony-clay;
+    .centerContent();
+    .nav-container {
+        width:100%;
+        .main-heading {
+            .centerContent();
+            margin:5px 0 5px 0;
+            h1 {
+                font-size:300%;
+            }
+            @media @iPhone {
+                margin:10px 0 10px 0;
+            }
+        }
+        .links {
+            .centerContent();
+            margin-bottom:5px;
+            div {
+                margin: 0 2% 0 2%;
+                a {
+                    font-family:@nav-font;
+                    font-size:150%;
+                    color:inherit;
+                    text-decoration:inherit;
+                }
+            }
+            @media @iPhone {
+                margin-bottom:10px;
+            }
+        }
+    }
+}
